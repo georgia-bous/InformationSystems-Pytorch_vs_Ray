@@ -1,0 +1,6 @@
+you can find the data for the Binary Classification in:
+https://www.kaggle.com/datasets/hari31416/celestialclassify
+
+
+you can find the data for the Personalised Page Rank:
+https://snap.stanford.edu/data/twitter-2010.html

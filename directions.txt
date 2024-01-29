@@ -1,0 +1,10 @@
+1. Go to the data folder and download the data (this might take a while)
+2. Install Ray and Pytorch and set up the environment as mentioned in the first segment of the report
+3. For the BC task you need to do a preprocessing to the data, just run the 
+"preprocessing.py" script, the result will be the input data
+4. In each script there is an implementation for reading either from HDFS or from local file.
+Adjust as needed.
+5a. Run Pytorch application using: 
+torchrun --nnodes=2 –node_rank=(0 ή 1) –master_addr=<private IP of master> --master_port=<random unused port> filename.py
+5b. Run Ray application using:
+python3 filename.py
