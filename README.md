@@ -28,8 +28,10 @@ The goal is to compare **performance**, **efficiency**, and **scalability** betw
 │ ├── emnistRay.py # EMNIST classification with Ray
 
 │ └── preprocessing.py # Preprocessing tools for input data
+
 │
 ├── data/ # Contains a URL reference to datasets (not uploaded)
+
 │
 ├── documents/ # Documentation and report
 
