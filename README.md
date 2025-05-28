@@ -12,20 +12,29 @@ The goal is to compare **performance**, **efficiency**, and **scalability** betw
 ---
 
 ## 📁 Repository Structure
-.
+
 ├── code/ # Python implementations for each task
+
 │ ├── PersonalisedPRPytorch.py # PageRank with PyTorch
+
 │ ├── PersonalisedPRRay.py # PageRank with Ray
+
 │ ├── classificationPytorch.py # CSV classification with PyTorch
+
 │ ├── classificationRay.py # CSV classification with Ray
+
 │ ├── emnistPytorch.py # EMNIST classification with PyTorch
+
 │ ├── emnistRay.py # EMNIST classification with Ray
+
 │ └── preprocessing.py # Preprocessing tools for input data
 │
 ├── data/ # Contains a URL reference to datasets (not uploaded)
 │
 ├── documents/ # Documentation and report
+
 │ ├── InformationSystemsReport.pdf # Full report with results and conclusions
+
 │ └── εκφώνηση.pdf # Project prompt/description
 │
 └── directions.txt # Instructions for running the system
