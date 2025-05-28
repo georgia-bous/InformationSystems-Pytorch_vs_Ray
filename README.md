@@ -12,7 +12,7 @@ The goal is to compare **performance**, **efficiency**, and **scalability** betw
 ---
 
 ## 📁 Repository Structure
-
+.
 ├── code/ # Python implementations for each task
 │ ├── PersonalisedPRPytorch.py # PageRank with PyTorch
 │ ├── PersonalisedPRRay.py # PageRank with Ray
