@@ -9,38 +9,47 @@ We implemented three core tasks in Python:
 
 The goal is to compare **performance**, **efficiency**, and **scalability** between the two frameworks.
 
+
+
 ---
 
-## 📁 Repository Structure
 
-├── code/ # Python implementations for each task
+---
 
-│ ├── PersonalisedPRPytorch.py # PageRank with PyTorch
+## 🧪 Tasks & Implementations
 
-│ ├── PersonalisedPRRay.py # PageRank with Ray
+### 🔹 Binary Classification (CSV Data)
+- **Files:** `classificationPytorch.py`, `classificationRay.py`
+- Compares model training on structured CSV data using both frameworks.
 
-│ ├── classificationPytorch.py # CSV classification with PyTorch
+### 🔹 Personalized PageRank
+- **Files:** `PersonalisedPRPytorch.py`, `PersonalisedPRRay.py`
+- Implements the PageRank algorithm on graph data, measuring distributed performance.
 
-│ ├── classificationRay.py # CSV classification with Ray
+### 🔹 Image Classification (EMNIST Dataset)
+- **Files:** `emnistPytorch.py`, `emnistRay.py`
+- Classifies handwritten characters and digits using the EMNIST dataset.
 
-│ ├── emnistPytorch.py # EMNIST classification with PyTorch
+### 🔹 Data Preprocessing
+- **File:** `preprocessing.py`
+- Shared utility for preparing data formats suitable for training.
 
-│ ├── emnistRay.py # EMNIST classification with Ray
+---
 
-│ └── preprocessing.py # Preprocessing tools for input data
+## 📊 Report & Results
 
-│
-├── data/ # Contains a URL reference to datasets (not uploaded)
+For detailed analysis of the experimental setup, evaluation metrics, and performance comparisons:
 
-│
-├── documents/ # Documentation and report
+📄 **[Read the full report →](documents/InformationSystemsReport.pdf)**
 
-│ ├── InformationSystemsReport.pdf # Full report with results and conclusions
+---
 
-│ └── εκφώνηση.pdf # Project prompt/description
-│
-└── directions.txt # Instructions for running the system
+## 📦 Requirements
 
+Install necessary Python libraries using:
+
+```bash
+pip install torch ray numpy pandas scikit-learn matplotlib
 
 ---
 
